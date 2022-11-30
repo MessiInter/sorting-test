@@ -1,0 +1,38 @@
+/* 
+  * This tasks file only work on CodeSandbox.
+  * Please DO NOT use this tasks file on Visual Studio Code.
+*/
+
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "Start compiled code",
+      "command": "npm start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "Compile TypeScript code",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "Compile TS code (watch mode)",
+      "command": "npm run dev",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "Execute unit test",
+      "command": "npm run test",
+      "runAtStart": false
+    }
+  }
+}

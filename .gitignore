@@ -1,0 +1,16 @@
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Testing
+/coverage
+
+# System files
+.DS_Store
+Thumbs.db
