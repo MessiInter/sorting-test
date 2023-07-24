@@ -15,8 +15,8 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "start": {
-      "name": "Start compiled code",
-      "command": "npm start",
+      "name": "Compile and Run code",
+      "command": "npm run build && npm start",
       "runAtStart": true
     },
     "build": {
