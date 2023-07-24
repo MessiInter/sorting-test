@@ -13,7 +13,7 @@ describe('sorting test', () => {
   /**
    * const algoName = ['quick', 'merge'];
    * const [quickAlgo, mergeAlgo] = algoName;
-  */
+   */
 
   beforeEach(() => testData = [...arr]);
   
@@ -21,13 +21,13 @@ describe('sorting test', () => {
     const result = mergeSort(testData);
     expect(isSorted(result)).toBeTruthy();
     expect(result.length).toBe(arr.length);
-  }); // `is ${quickAlgo} work ok?`
+  }); // `is ${mergeAlgo} work ok?`
 
   it('can quick sort work correctly', () => {
     const result = quickSort(testData);
     expect(isSorted(result)).toBeTruthy();
     expect(result.length).toBe(arr.length);
-  }); // `is ${mergeAlgo} work ok?`
+  }); // `is ${quickAlgo} work ok?`
 
   it('java sucks', () => {}); // (() => Boolean('yes'))();
 
